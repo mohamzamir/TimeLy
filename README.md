@@ -1,11 +1,11 @@
 # TimeLy
 
 ## Inspiration
-We started **TimeLy** because we noticed a lot of useful information was hidden in the feedback and grades of courses. This information was not being used to its full potential. We believed that if this data could be understood easily, it would help students pick the **right courses**, and teachers could make their classes even better. So, we decided to create a tool that could make sense of all this data quickly and easily.
+We started **TimeLy** because we noticed a lot of useful information was hidden in the feedback and grades of courses offered in **Stony Brook University**. This information was not being used to its full potential. We believed that if this data could be understood easily, it would help students pick the **right courses**, and teachers could make their classes even better. So, we decided to create a tool that could make sense of all this data quickly and easily.
 
 ## What it does
 
-It performs a multi-faceted analysis of course feedback and grading data to extract actionable insights that benefit students, educators, and academic administrators.
+TimeLy is a chatbot which performs a multi-faceted analysis of course feedback and grading data to extract actionable insights that benefit students, educators, and academic administrators. It also implements GPT-3 to give users human like experience. 
 
 **For Students:**
 Course Insights: Students receive personalized recommendations, aiding them in selecting courses that align with their academic goals and learning preferences.
@@ -29,7 +29,7 @@ The initial phase involved the extraction of data from Excel sheets. We wrote a 
 
 Our code is designed to automatically check for pre-processed data stored in a **Parquet file** (to make the processing more faster), a columnar storage file format that is highly optimized for use with data processing frameworks. If the processed data is unavailable, our script initiates the extraction, transformation, and loading **(ETL)** process on the raw data from the Excel file.
 
-For **sentiment analysis**, we employed a specialized sentiment analysis pipeline. It’s capable of processing large volumes of textual feedback to derive sentiment scores, categorizing them into positive, negative, or neutral sentiments. We addressed the challenge of handling extensive text data by implementing a truncation mechanism, ensuring optimal performance without compromising the quality of insights.
+For **sentiment analysis**, we employed a specialized sentiment analysis pipeline with the help of huggingface. It’s capable of processing large volumes of textual feedback to derive sentiment scores, categorizing them into positive, negative, or neutral sentiments. We addressed the challenge of handling extensive text data by implementing a truncation mechanism, ensuring optimal performance without compromising the quality of insights.
 
 To transition TimeLy into an interactive, user-friendly platform, we utilized **Flask**, a micro web framework in Python. Flask enabled us to build a web-based interface that is both intuitive and responsive with the help of **HTML**, **CSS** and **JavaScript**. Users can input their queries in **natural language**, and the system, also integrated with the **OpenAI GPT-3.5 Turbo model**, provides real-time, intelligent, and contextual responses aside from the course schedule part.
 
