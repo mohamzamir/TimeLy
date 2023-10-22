@@ -205,7 +205,7 @@ def map_to_defined_difficulties(difficulty):
     return difficulty_mapping.get(difficulty.lower(), "Medium Hard")  # Default to "Medium Hard" if not found
 
 
-openai.api_key = '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'
+openai.api_key = 'API Key Goes Here'
 
 
 # def assist(user_input, conversation_history=[]):
