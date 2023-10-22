@@ -1,0 +1,12 @@
+Flask==2.3.3
+gunicorn==20.1.0
+Werkzeug==2.3.7
+openai
+transformers
+pandas
+spacy
+flask
+flask_cors
+aiohttp==3.8.2
+yarl==1.8.1
+frozenlist==1.3.1
