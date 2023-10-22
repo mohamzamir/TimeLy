@@ -52,7 +52,6 @@ frozenlist==1.3.1
 ```
 
 ## Installation
-Clone the repo
 ```bash
 [git clone https://github.com/mohamzamir/TImeLy](https://github.com/mohamzamir/TimeLy.git)
 ```
