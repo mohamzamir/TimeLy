@@ -35,24 +35,27 @@ To transition TimeLy into an interactive, user-friendly platform, we utilized **
 
 We also incorporated **Spacy**, a leading library in **NLP (Natural Language Processing)**, to parse and categorize user inputs effectively, ensuring each query yields the most accurate and relevant results. The integration of these advanced technologies transformed TimeLy into a robust, interactive, and highly intuitive educational data analysis platform.
 
-## Challenges we ran into
+## Dependencies
+```bash
+Flask==2.3.3
+gunicorn==20.1.0
+Werkzeug==2.3.7
+openai
+transformers
+pandas
+spacy
+flask
+flask_cors
+aiohttp==3.8.2
+yarl==1.8.1
+frozenlist==1.3.1
+```
 
-We did run into some challenges. One big challenge was getting and handling a lot of text data. We had to figure out a way to read and understand this data without taking too much time. Another challenge was making the tool user-friendly. We wanted to make sure anyone could use it without needing to know a lot about data or programming. Balancing between making the tool powerful and keeping it easy to use was tough, but we learned a lot from it.
-
-## Accomplishments that we're proud of
-
-We are particularly proud of how TimeLy has came out from a concept into a functional, interactive tool that stands at the confluence of education and technology. Even though it lacks a lot of things, we are proud of what we built. 
-
-**Interactivity:** The seamless integration of OpenAI GPT-3.5 Turbo, enabling real-time user interactions and intelligent responses, is an achievement that elevates the user experience.
-**Sentiment Analysis:** Implementing a robust sentiment analysis feature that provides nuanced insights into the emotional context of student feedback is another accomplishment.
-**User Experience:** We successfully created an intuitive user interface using Flask, ensuring that complex data is accessible and understandable to all users, irrespective of their technical expertise.
-
-
-## What we learned
-
-**Technical Skills:** We honed our skills in Python, data analysis, and machine learning. Working with libraries like Pandas, Spacy, and integrating OpenAI was a rich learning experience.
-**User Engagement:** We learned the pivotal role of user experience, driving us to make TimeLy as intuitive and user-friendly as possible while retaining its technical robustness.
-**Data Insights:** The project deepened our understanding of the power of data and how processed, analyzed data can be a goldmine of insights for students, educators, and institutions.
+## Installation
+Clone the repo
+```bash
+git clone https://github.com/mohamzamir/TImeLy
+```
 
 ## What's next for TimeLy: A Course Recommender Tool
 
@@ -60,3 +63,20 @@ We are particularly proud of how TimeLy has came out from a concept into a funct
 **Data Sources:** We aim to integrate additional data sources to provide a more comprehensive view and richer insights into courses, instructors, and institutions.
 **AI Integration:** We are exploring opportunities to further harness AI, enhancing the tool’s predictive analytics capabilities to forecast trends and offer future-focused insights.
 **User Community:** Building a community where users can share their experiences, provide feedback, and contribute to the continuous improvement of TimeLy.
+
+## License
+```
+Copyright [2023] [Amir Hamza]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
