@@ -56,6 +56,10 @@ Clone the repo
 ```bash
 [git clone https://github.com/mohamzamir/TImeLy](https://github.com/mohamzamir/TimeLy.git)
 ```
+```bash
+python -m spacy download en_core_web_sm
+```
+
 
 ## What's next for TimeLy: A Course Recommender Tool
 
