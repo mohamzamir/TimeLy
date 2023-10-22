@@ -54,7 +54,7 @@ frozenlist==1.3.1
 ## Installation
 Clone the repo
 ```bash
-git clone https://github.com/mohamzamir/TImeLy
+[git clone https://github.com/mohamzamir/TImeLy](https://github.com/mohamzamir/TimeLy.git)
 ```
 
 ## What's next for TimeLy: A Course Recommender Tool
