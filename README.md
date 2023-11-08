@@ -69,7 +69,7 @@ python -m spacy download en_core_web_sm
 
 ## License
 ```
-Copyright [2023] [Amir Hamza]
+Copyright [2023] [Amir Hamza and Ritesh Chavan]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
