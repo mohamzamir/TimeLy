@@ -7,7 +7,7 @@ const heading = document.querySelector('.heading');
 const button = document.querySelector('.btn');
 
 
-// Function to create a message element
+// Function to create a message 
 function createMessageElement(content, alignment, isHTML = false) {
     const messageDiv = document.createElement('div');
     messageDiv.className = `message ${alignment}`;
